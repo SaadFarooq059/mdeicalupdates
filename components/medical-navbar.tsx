@@ -11,6 +11,7 @@ import {
 } from "@/components/ui/resizable-navbar"
 import { useState } from "react"
 import Link from "next/link"
+import Image from "next/image"
 
 export function MedicalNavbar() {
   const navItems = [
@@ -94,11 +95,14 @@ export function MedicalNavbar() {
 
 const MedicalNavbarLogo = () => {
   return (
-    <Link href="/" className="relative z-20 mr-4 flex items-center space-x-2 px-2 py-1 text-sm font-normal text-black">
-      <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary">
-        <span className="text-sm font-bold text-white">MU</span>
-      </div>
-      <span className="font-semibold text-black dark:text-white">Medical Updates and Broadcast</span>
+    <Link href="/" className="relative z-20 mr-4 flex items-center space-x-2 px-2 py-1">
+      <Image
+        src="/logo.png"
+        alt="Medical Updates and Broadcast"
+        width={60}
+        height={60}
+        className="h-14 w-auto"
+      />
     </Link>
   )
 }

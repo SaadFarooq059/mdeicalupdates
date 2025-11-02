@@ -13,65 +13,83 @@ import HeroSection from "@/components/ui/hero-section-9"
 
 const blogPosts = [
   {
-    id: 1,
-    title: "World Health Summit 2024: Key Takeaways on Pandemic Preparedness",
+    id: "pakistan-medical-sector-comprehensive-analysis",
+    title: "Pakistan Medical Sector",
     excerpt:
-      "An in-depth analysis of the discussions and commitments made at this year's World Health Summit, focusing on global pandemic response strategies.",
-    category: "Conference Review",
-    date: "January 15, 2025",
-    readTime: "8 min read",
-    image: "/medical-conference-hall.jpg",
+      "A comprehensive analysis of Pakistan's health-care landscape covering public hospitals, private sector, military medical facilities, budget allocations, and key recommendations for achieving universal, equitable care.",
+    category: "Healthcare System",
+    date: "September 2025",
+    author: "Hamza Khursheed",
+    readTime: "12 min read",
+    image: "/blog7.jpg",
   },
   {
-    id: 2,
-    title: "Breakthrough Announcements at the International Cardiology Conference",
+    id: "improvement-medical-facilities-remote-areas-pakistan",
+    title: "Improvement of Medical Facilities in Remote Areas of Pakistan Across All Provinces",
     excerpt:
-      "Exploring the latest research findings and treatment innovations presented at the ICC in Dubai, including advances in minimally invasive procedures.",
-    category: "Medical Research",
-    date: "January 10, 2025",
-    readTime: "6 min read",
-    image: "/cardiology-equipment.png",
-  },
-  {
-    id: 3,
-    title: "Digital Health Revolution: Insights from Asian MedTech Expo",
-    excerpt:
-      "A comprehensive review of emerging technologies showcased at the Asian Medical Technology Expo, from AI diagnostics to telemedicine platforms.",
-    category: "Technology",
-    date: "January 5, 2025",
-    readTime: "10 min read",
-    image: "/digital-health-technology.jpg",
-  },
-  {
-    id: 4,
-    title: "Global Oncology Summit: Progress in Cancer Treatment",
-    excerpt:
-      "Highlighting the most promising developments in cancer research and treatment protocols discussed at the Global Oncology Summit.",
-    category: "Conference Review",
-    date: "December 28, 2024",
-    readTime: "7 min read",
-    image: "/medical-research-lab.png",
-  },
-  {
-    id: 5,
-    title: "Mental Health in Focus: WHO Regional Conference Report",
-    excerpt:
-      "Key insights from the WHO Regional Conference on Mental Health, addressing stigma, access to care, and innovative treatment approaches.",
+      "A comprehensive guide to strengthening healthcare in Pakistan's remote areas through infrastructure, human resources, technology, and governance reforms to close the rural-urban health gap.",
     category: "Public Health",
-    date: "December 20, 2024",
-    readTime: "9 min read",
-    image: "/mental-health-support.png",
+    date: "March 2025",
+    author: "Hamza Khursheed",
+    readTime: "14 min read",
+    image: "/blog6.jpg",
   },
   {
-    id: 6,
-    title: "Vaccine Development Forum: Lessons from Recent Outbreaks",
+    id: "who-role-in-pakistan-medical-sector",
+    title: "WHO Role in Pakistan Medical Sector",
     excerpt:
-      "Analysis of discussions at the Vaccine Development Forum regarding rapid response mechanisms and equitable distribution strategies.",
-    category: "Medical Research",
-    date: "December 15, 2024",
-    readTime: "8 min read",
-    image: "/vaccine-research.jpg",
+      "An examination of WHO's multidimensional role as Pakistan's principal international technical partner, providing policy guidance, emergency coordination, capacity building, and strategic support for TB, polio, and respiratory health.",
+    category: "Public Health",
+    date: "June 2025",
+    author: "Hamza Khursheed",
+    readTime: "10 min read",
+    image: "/blog5.jpg",
   },
+  {
+    id: "pakistan-medical-structure-overview-facilities-who-support",
+    title: "Pakistan Medical Structure: Overview, Facilities, WHO Support, Rankings, and Pathways for Improvement",
+    excerpt:
+      "A comprehensive analysis of Pakistan's health system architecture, government facilities, private sector contributions, WHO support, international rankings, and immediate pathways for strengthening healthcare delivery.",
+    category: "Public Health",
+    date: "December 2024",
+    author: "Hamza Khursheed",
+    readTime: "15 min read",
+    image: "/blog4.jpg",
+  },
+  {
+    id: "polio-in-pakistan-brief-overview-and-current-response",
+    title: "Polio in Pakistan: Brief Overview and Current Response",
+    excerpt:
+      "An examination of Pakistan's urgent public health challenge with polio, covering government actions, private sector contributions, modern tools in use, and opportunities for complete eradication.",
+    category: "Public Health",
+    date: "February 2023",
+    author: "Dr Amir Nagra",
+    readTime: "12 min read",
+    image: "/blog3.JPG",
+  },
+  {
+    id: "pakistan-breast-cancer-awareness-campaigns",
+    title: "Pakistan's Breast Cancer Awareness Campaigns: A Nation's Fight for Early Detection and Empowerment",
+    excerpt:
+      "Breast cancer awareness in Pakistan is gaining momentum through nationwide campaigns, public-private partnerships, and community-driven initiatives addressing one of Asia's highest incidence rates.",
+    category: "Public Health",
+
+    date: "November 2022",
+    author: "Hamza Khursheed",
+    readTime: "10 min read",
+    image: "/blog2.webp",
+  },
+  {
+    id: "covid-19-in-pakistan-response-partnerships-and-awareness",
+    title: "COVID-19 in Pakistan — Response, Partnerships, and Awareness",
+    excerpt:
+      "A summary of Pakistan's multi-sector COVID-19 response: government actions, private-sector support, and awareness campaigns that shaped public behaviour and vaccine uptake.",
+    category: "Public Health",
+    date: "February 15, 2021",
+    author: "Hamza Khursheed",
+    readTime: "12 min read",
+    image: "/blog1.webp",
+  }
 ]
 
 const categories = ["All", "Conference Review", "Medical Research", "Technology", "Public Health"]
@@ -200,6 +218,10 @@ export default function BlogsPage() {
                         </Badge>
                       </div>
                       <CardTitle className="text-foreground text-xl leading-tight mb-2">{post.title}</CardTitle>
+                      <div className="flex items-center gap-2 text-sm text-muted-foreground mb-2">
+                        <Users className="h-4 w-4" />
+                        <span>{post.author}</span>
+                      </div>
                       <CardDescription className="text-muted-foreground leading-relaxed">
                         {post.excerpt}
                       </CardDescription>
@@ -215,12 +237,10 @@ export default function BlogsPage() {
                           <span>{post.readTime}</span>
                         </div>
                       </div>
-                      <Button asChild variant="link" className="p-0 h-auto text-primary">
-                        <Link href={`/blogs/${post.id}`}>
-                          Read Full Article
-                          <ArrowRight className="ml-1 h-4 w-4" />
-                        </Link>
-                      </Button>
+                      <Link href={`/blogs/${post.id}`} className="text-primary hover:underline inline-flex items-center text-sm font-medium">
+                        Read Full Article
+                        <ArrowRight className="ml-1 h-4 w-4" />
+                      </Link>
                     </CardContent>
                   </Card>
                 ))}

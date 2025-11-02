@@ -1,5 +1,6 @@
 import Link from "next/link"
-import { Facebook, Twitter, Linkedin, Mail } from "lucide-react"
+import Image from "next/image"
+import { Facebook, Twitter, Linkedin, Mail, Phone } from "lucide-react"
 
 export function Footer() {
   return (
@@ -8,13 +9,23 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
-                <span className="text-xl font-bold text-primary-foreground">MU</span>
-              </div>
-              <span className="text-lg font-semibold text-foreground">Medical Updates and Broadcast</span>
+              <Image
+                src="/logo.png"
+                alt="Medical Updates and Broadcast"
+                width={60}
+                height={60}
+                className="h-14 w-auto"
+              />
+              <span className="font-semibold text-lg">Medical Updates</span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
               A Pakistan-based NGO dedicated to monitoring and reporting on global medical events and conferences.
+            </p>
+            <p className="mt-4 text-sm text-muted-foreground">
+              <Phone className="inline-block mr-2 h-4 w-4 align-text-bottom" />
+              <a href="tel:+92512359087" className="hover:text-primary transition-colors">
+                +92 51 2359087
+              </a>
             </p>
           </div>
 

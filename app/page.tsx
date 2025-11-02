@@ -32,7 +32,7 @@ export default function HomePage() {
           text: "EXPLORE OUR REPORTS",
           href: "/blogs",
         }}
-        backgroundImage="/medical-conference-hall.jpg"
+        backgroundImage="/hero.webp"
         contactInfo={{
           website: "medicalupdates.net",
           phone: "+92 (300) 123-4567",

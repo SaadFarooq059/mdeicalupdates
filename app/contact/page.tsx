@@ -117,7 +117,9 @@ export default function ContactPage() {
                       </div>
                       <div>
                         <h3 className="font-semibold text-foreground mb-1">Phone</h3>
-                        <p className="text-sm text-muted-foreground">+92 (51) 123-4567</p>
+                        <p className="text-sm text-muted-foreground">
+                          <a href="tel:+92512359087" className="hover:text-primary transition-colors">+92 51 2359087</a>
+                        </p>
                       </div>
                     </div>
                   </CardContent>
@@ -202,43 +204,7 @@ export default function ContactPage() {
           </div>
         </section>
 
-        {/* Additional Info Section */}
-        <section className="py-16 md:py-24 bg-muted/30">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="max-w-3xl mx-auto text-center">
-              <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4 text-balance">Collaborate With Us</h2>
-              <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-                We welcome partnerships with healthcare organizations, medical professionals, and fellow NGOs. Together,
-                we can enhance transparency and accountability in the global medical community.
-              </p>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
-                <Card className="border-border">
-                  <CardHeader>
-                    <CardTitle className="text-foreground">Media Inquiries</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <CardDescription className="text-muted-foreground leading-relaxed">
-                      For press releases and media coverage, please contact our communications team at
-                      media@medicalupdates.net
-                    </CardDescription>
-                  </CardContent>
-                </Card>
-
-                <Card className="border-border">
-                  <CardHeader>
-                    <CardTitle className="text-foreground">Partnership Opportunities</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <CardDescription className="text-muted-foreground leading-relaxed">
-                      Interested in collaborating? Reach out to partnerships@medicalupdates.net to explore
-                      opportunities.
-                    </CardDescription>
-                  </CardContent>
-                </Card>
-              </div>
-            </div>
-          </div>
-        </section>
+    
       </main>
 
       <Footer />
