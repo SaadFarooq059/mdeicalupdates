@@ -76,6 +76,19 @@ export default function HomePage() {
                 />
               </Link>
 
+              <Link href="/blogs/tuberculosis-lung-diseases-pakistan-efforts-challenges" className="hover:opacity-90 transition-opacity">
+                <ArticleCard
+                  headline="Tuberculosis & Lung Diseases in Pakistan: Current Efforts, Challenges, and the Road Ahead"
+                  excerpt="An in-depth look at Pakistan's fight against TB and chronic lung diseases, covering government prevention measures, modern treatment facilities, public-private partnerships, and the path forward to a TB-free future."
+                  cover="/tb.jpg"
+                  tag="Public Health"
+                  readingTime={660}
+                  writer="Hamza Khursheed"
+                  publishedAt={new Date("2022-06-05")}
+                  clampLines={3}
+                />
+              </Link>
+
               <Link href="/blogs/who-role-in-pakistan-medical-sector" className="hover:opacity-90 transition-opacity">
                 <ArticleCard
                   headline="WHO Role in Pakistan Medical Sector"
@@ -85,19 +98,6 @@ export default function HomePage() {
                   readingTime={600}
                   writer="Hamza Khursheed"
                   publishedAt={new Date("2025-06-01")}
-                  clampLines={3}
-                />
-              </Link>
-
-              <Link href="/blogs/improvement-medical-facilities-remote-areas-pakistan" className="hover:opacity-90 transition-opacity">
-                <ArticleCard
-                  headline="Improvement of Medical Facilities in Remote Areas of Pakistan Across All Provinces"
-                  excerpt="A comprehensive guide to strengthening healthcare in Pakistan's remote areas through infrastructure, human resources, technology, and governance reforms to close the rural-urban health gap."
-                  cover="/blog6.jpg"
-                  tag="Public Health"
-                  readingTime={840}
-                  writer="Hamza Khursheed"
-                  publishedAt={new Date("2025-03-01")}
                   clampLines={3}
                 />
               </Link>
