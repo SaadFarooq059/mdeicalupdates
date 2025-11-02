@@ -24,6 +24,17 @@ const blogPosts = [
     image: "/blog7.jpg",
   },
   {
+    id: "tuberculosis-lung-diseases-pakistan-efforts-challenges",
+    title: "Tuberculosis & Lung Diseases in Pakistan: Current Efforts, Challenges, and the Road Ahead",
+    excerpt:
+      "An in-depth look at Pakistan's fight against TB and chronic lung diseases, covering government prevention measures, modern treatment facilities, public-private partnerships, and the path forward to a TB-free future.",
+    category: "Public Health",
+    date: "June 2022",
+    author: "Hamza Khursheed",
+    readTime: "11 min read",
+    image: "/tb.jpg",
+  },
+  {
     id: "improvement-medical-facilities-remote-areas-pakistan",
     title: "Improvement of Medical Facilities in Remote Areas of Pakistan Across All Provinces",
     excerpt:

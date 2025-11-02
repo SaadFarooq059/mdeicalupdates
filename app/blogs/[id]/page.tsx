@@ -23,6 +23,77 @@ const posts: Record<
     content: React.ReactNode
   }
 > = {
+  "tuberculosis-lung-diseases-pakistan-efforts-challenges": {
+    title: "Tuberculosis & Lung Diseases in Pakistan: Current Efforts, Challenges, and the Road Ahead",
+    date: "June 2022",
+    author: "Hamza Khursheed",
+    category: "Public Health",
+    readTime: "11 min read",
+    image: "/tb.jpg",
+    content: (
+      <div className="text-foreground leading-relaxed space-y-6">
+        <p className="text-lg text-muted-foreground">
+          Tuberculosis (TB) and chronic lung diseases remain a significant public health burden in Pakistan. Despite being preventable and treatable, TB continues to affect hundreds of thousands annually, while diseases like COPD and asthma are on the rise due to pollution, smoking, and poor healthcare access. The government, in collaboration with international partners and the private sector, is actively working to curb this crisis—but more can and must be done.
+        </p>
+
+        <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">The TB & Lung Disease Burden in Pakistan</h2>
+        <ul className="list-disc list-inside text-muted-foreground space-y-2 ml-4">
+          <li>Pakistan ranks among the top 5 high-burden TB countries globally, with over 500,000 new TB cases reported annually.</li>
+          <li>Chronic respiratory diseases such as COPD, asthma, and bronchiectasis are also prevalent, especially in urban centers with high pollution levels.</li>
+          <li>Multidrug-resistant TB (MDR-TB) is a growing concern, with thousands of cases requiring specialized treatment.</li>
+        </ul>
+
+        <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">🛡 Government Prevention & Control Measures</h2>
+        <p className="text-muted-foreground">
+          The Government of Pakistan has launched a comprehensive National Strategic Plan for TB Control (2024–2026), which includes:
+        </p>
+        <ul className="list-disc list-inside text-muted-foreground space-y-2 ml-4">
+          <li>Free TB diagnosis and treatment through over 1,500 Basic Management Units (BMUs) across the country.</li>
+          <li>DOTS (Directly Observed Treatment Short-course) strategy implemented nationwide.</li>
+          <li>Community-based screening and contact tracing, especially in high-risk populations.</li>
+          <li>Integration of TB services with HIV and diabetes programs to address co-morbidities.</li>
+          <li>Awareness campaigns on World TB Day and through media to reduce stigma and promote early diagnosis.</li>
+        </ul>
+
+        <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">🏥 Treatment Facilities & Modern Equipment</h2>
+        <p className="text-muted-foreground">
+          Pakistan has made strides in upgrading its diagnostic and treatment infrastructure:
+        </p>
+        <ul className="list-disc list-inside text-muted-foreground space-y-2 ml-4">
+          <li>GeneXpert machines are widely deployed for rapid molecular diagnosis of TB and MDR-TB.</li>
+          <li>Digital X-ray units and mobile screening vans are used in remote and urban slum areas.</li>
+          <li>BSL-3 laboratories in major cities like Islamabad, Lahore, and Karachi support advanced TB testing.</li>
+          <li>Pulmonology departments in tertiary hospitals like Aga Khan University Hospital, Shaukat Khanum, and Jinnah Postgraduate Medical Centre offer specialized care for lung diseases.</li>
+        </ul>
+
+        <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">Public-Private Partnerships & NGO Involvement</h2>
+        <ul className="list-disc list-inside text-muted-foreground space-y-2 ml-4">
+          <li>
+            <strong>NGOs like Indus Health Network, Greenstar Social Marketing, and BRAC Pakistan</strong> are key partners in TB control.
+          </li>
+          <li>Private clinics and pharmacies are being engaged through Public-Private Mix (PPM) models to report and treat TB cases.</li>
+          <li>Digital health platforms are being piloted to track treatment adherence and patient outcomes.</li>
+        </ul>
+
+        <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">🚀 What More Can Be Done?</h2>
+        <p className="text-muted-foreground">
+          To further reduce the burden of TB and lung diseases, both the government and private sector can:
+        </p>
+        <ul className="list-disc list-inside text-muted-foreground space-y-2 ml-4">
+          <li>Expand air quality monitoring and pollution control to reduce respiratory disease triggers.</li>
+          <li>Subsidize inhalers and respiratory medications for low-income patients.</li>
+          <li>Invest in local manufacturing of diagnostic kits and TB drugs to reduce dependency on imports.</li>
+          <li>Train more pulmonologists and respiratory therapists, especially in underserved regions.</li>
+          <li>Launch school-based screening and education programs to catch TB early and promote lung health.</li>
+        </ul>
+
+        <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">Conclusion</h2>
+        <p className="text-muted-foreground">
+          Pakistan's fight against TB and lung diseases is at a critical juncture. With strategic investments, stronger public-private collaboration, and community engagement, the country can move closer to a TB-free future and healthier lungs for all.
+        </p>
+      </div>
+    ),
+  },
   "pakistan-medical-sector-comprehensive-analysis": {
     title: "Pakistan Medical Sector",
     date: "September 2025",

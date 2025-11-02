@@ -63,38 +63,44 @@ export default function HomePage() {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center mb-8">
-              <ArticleCard
-                headline="World Health Summit 2025: Key Takeaways"
-                excerpt="An in-depth analysis of the major discussions and decisions made at this year's World Health Summit in Berlin, focusing on pandemic preparedness and global health equity."
-                cover="/medical-conference-hall.jpg"
-                tag="Conference Review"
-                readingTime={420}
-                writer="Dr. Sarah Ahmed"
-                publishedAt={new Date("2025-03-20")}
-                clampLines={3}
-              />
+              <Link href="/blogs/pakistan-medical-sector-comprehensive-analysis" className="hover:opacity-90 transition-opacity">
+                <ArticleCard
+                  headline="Pakistan Medical Sector"
+                  excerpt="A comprehensive analysis of Pakistan's health-care landscape covering public hospitals, private sector, military medical facilities, budget allocations, and key recommendations for achieving universal, equitable care."
+                  cover="/blog7.jpg"
+                  tag="Healthcare System"
+                  readingTime={720}
+                  writer="Hamza Khursheed"
+                  publishedAt={new Date("2025-09-01")}
+                  clampLines={3}
+                />
+              </Link>
 
-              <ArticleCard
-                headline="Breakthrough Innovations at Cardiology Conference"
-                excerpt="Exploring the cutting-edge cardiovascular research and treatment methods unveiled at the International Cardiology Conference in Dubai."
-                cover="/cardiology-equipment.png"
-                tag="Medical Innovation"
-                readingTime={360}
-                writer="Dr. Hassan Ali"
-                publishedAt={new Date("2025-04-12")}
-                clampLines={3}
-              />
+              <Link href="/blogs/who-role-in-pakistan-medical-sector" className="hover:opacity-90 transition-opacity">
+                <ArticleCard
+                  headline="WHO Role in Pakistan Medical Sector"
+                  excerpt="An examination of WHO's multidimensional role as Pakistan's principal international technical partner, providing policy guidance, emergency coordination, capacity building, and strategic support for TB, polio, and respiratory health."
+                  cover="/blog5.jpg"
+                  tag="Public Health"
+                  readingTime={600}
+                  writer="Hamza Khursheed"
+                  publishedAt={new Date("2025-06-01")}
+                  clampLines={3}
+                />
+              </Link>
 
-              <ArticleCard
-                headline="Digital Health Revolution in Asia"
-                excerpt="A comprehensive review of the latest medical technologies and digital health solutions showcased at the Asian Medical Technology Expo in Singapore."
-                cover="/digital-health-technology.jpg"
-                tag="Technology"
-                readingTime={480}
-                writer="Dr. Fatima Khan"
-                publishedAt={new Date("2025-05-25")}
-                clampLines={3}
-              />
+              <Link href="/blogs/improvement-medical-facilities-remote-areas-pakistan" className="hover:opacity-90 transition-opacity">
+                <ArticleCard
+                  headline="Improvement of Medical Facilities in Remote Areas of Pakistan Across All Provinces"
+                  excerpt="A comprehensive guide to strengthening healthcare in Pakistan's remote areas through infrastructure, human resources, technology, and governance reforms to close the rural-urban health gap."
+                  cover="/blog6.jpg"
+                  tag="Public Health"
+                  readingTime={840}
+                  writer="Hamza Khursheed"
+                  publishedAt={new Date("2025-03-01")}
+                  clampLines={3}
+                />
+              </Link>
             </div>
 
             <div className="flex justify-center">

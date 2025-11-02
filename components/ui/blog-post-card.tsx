@@ -49,18 +49,18 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({
   const hasFooter = writer || publishedAt
 
   return (
-    <Card className="flex w-full max-w-sm flex-col gap-3 overflow-hidden rounded-3xl border p-3 shadow-lg">
+    <Card className="flex w-full max-w-sm h-full flex-col gap-3 overflow-hidden rounded-3xl border p-3 shadow-lg">
       {cover && (
-        <CardHeader className="p-0">
+        <CardHeader className="p-0 flex-shrink-0">
           <div className="relative h-56 w-full">
             <Image src={cover || "/placeholder.svg"} alt={headline} fill className="rounded-2xl object-cover" />
           </div>
         </CardHeader>
       )}
 
-      <CardContent className="flex-grow p-3">
+      <CardContent className="flex-grow p-3 flex flex-col min-h-0">
         {hasMeta && (
-          <div className="mb-4 flex items-center text-sm text-muted-foreground">
+          <div className="mb-4 flex items-center text-sm text-muted-foreground flex-shrink-0">
             {tag && (
               <Badge className="rounded-full bg-muted px-3 py-1 text-sm text-muted-foreground hover:text-black">
                 {tag}
@@ -71,15 +71,16 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({
           </div>
         )}
 
-        <h2 className="mb-2 text-2xl font-bold leading-tight text-card-foreground">{headline}</h2>
+        <h2 className="mb-2 text-2xl font-bold leading-tight text-card-foreground line-clamp-2 flex-shrink-0">
+          {headline}
+        </h2>
 
         <p
-          className={cn("text-muted-foreground", {
-            "overflow-hidden text-ellipsis [-webkit-box-orient:vertical] [display:-webkit-box]":
-              clampLines && clampLines > 0,
+          className={cn("text-muted-foreground overflow-hidden text-ellipsis", {
+            "[-webkit-box-orient:vertical] [display:-webkit-box]": clampLines && clampLines > 0,
           })}
           style={{
-            WebkitLineClamp: clampLines,
+            WebkitLineClamp: clampLines || 3,
           }}
         >
           {excerpt}
@@ -87,17 +88,17 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({
       </CardContent>
 
       {hasFooter && (
-        <CardFooter className="flex items-center justify-between p-3">
+        <CardFooter className="flex items-center justify-between p-3 flex-shrink-0 mt-auto">
           {writer && (
             <div>
               <p className="text-sm text-muted-foreground">By</p>
-              <p className="font-semibold text-muted-foreground">{writer}</p>
+              <p className="font-semibold text-muted-foreground truncate max-w-[120px]">{writer}</p>
             </div>
           )}
           {publishedAt && (
             <div className={writer ? "text-right" : ""}>
               <p className="text-sm text-muted-foreground">Published</p>
-              <p className="font-semibold text-muted-foreground">{formatPostDate(publishedAt)}</p>
+              <p className="font-semibold text-muted-foreground whitespace-nowrap">{formatPostDate(publishedAt)}</p>
             </div>
           )}
         </CardFooter>
