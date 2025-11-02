@@ -157,7 +157,7 @@ export default function BlogsPage() {
         icon: <Users className="h-5 w-5 text-muted-foreground" />,
       },
     ],
-    images: ["/medical-conference-hall.jpg", "/cardiology-equipment.png", "/digital-health-technology.jpg"],
+    images: ["/service.jpg", "/service1.jpeg", "/service3.webp"],
   }
 
   return (

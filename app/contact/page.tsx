@@ -117,9 +117,14 @@ export default function ContactPage() {
                       </div>
                       <div>
                         <h3 className="font-semibold text-foreground mb-1">Phone</h3>
-                        <p className="text-sm text-muted-foreground">
-                          <a href="tel:+92512359087" className="hover:text-primary transition-colors">+92 51 2359087</a>
-                        </p>
+                        <div className="text-sm text-muted-foreground space-y-1">
+                          <p>
+                            <a href="tel:+92512359087" className="hover:text-primary transition-colors">051-2359087</a>
+                          </p>
+                          <p>
+                            <a href="tel:+923205827041" className="hover:text-primary transition-colors">0320-5827041</a>
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </CardContent>

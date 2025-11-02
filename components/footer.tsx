@@ -6,7 +6,7 @@ export function Footer() {
   return (
     <footer className="border-t border-border bg-muted/30">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
             <div className="flex items-center gap-2 mb-4">
               <Image
@@ -21,15 +21,22 @@ export function Footer() {
             <p className="text-sm text-muted-foreground leading-relaxed">
               A Pakistan-based NGO dedicated to monitoring and reporting on global medical events and conferences.
             </p>
-            <p className="mt-4 text-sm text-muted-foreground">
-              <Phone className="inline-block mr-2 h-4 w-4 align-text-bottom" />
-              <a href="tel:+92512359087" className="hover:text-primary transition-colors">
-                +92 51 2359087
-              </a>
-            </p>
+            <div className="mt-4 text-sm text-muted-foreground space-y-1">
+              <p>
+                <Phone className="inline-block mr-2 h-4 w-4 align-text-bottom" />
+                <a href="tel:+92512359087" className="hover:text-primary transition-colors">
+                  051-2359087
+                </a>
+              </p>
+              <p className="ml-6">
+                <a href="tel:+923205827041" className="hover:text-primary transition-colors">
+                  0320-5827041
+                </a>
+              </p>
+            </div>
           </div>
 
-          <div>
+          <div className="md:text-right">
             <h3 className="text-sm font-semibold text-foreground mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
