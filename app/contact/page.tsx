@@ -122,7 +122,7 @@ export default function ContactPage() {
                             <a href="tel:+92512359087" className="hover:text-primary transition-colors">051-2359087</a>
                           </p>
                           <p>
-                            <a href="tel:+923205827041" className="hover:text-primary transition-colors">0320-5827041</a>
+                            <a href="tel:+923335106112" className="hover:text-primary transition-colors">0333-5106112</a>
                           </p>
                         </div>
                       </div>

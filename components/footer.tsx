@@ -29,8 +29,8 @@ export function Footer() {
                 </a>
               </p>
               <p className="ml-6">
-                <a href="tel:+923205827041" className="hover:text-primary transition-colors">
-                  0320-5827041
+                <a href="tel:+923335106112" className="hover:text-primary transition-colors">
+                  0333-5106112
                 </a>
               </p>
             </div>
