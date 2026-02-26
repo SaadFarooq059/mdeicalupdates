@@ -1004,7 +1004,7 @@ const posts: Record<
     author: "Hamza Khursheed",
     category: "Conference Review",
     readTime: "20 min read",
-    image: "/medical-conference-hall.jpg",
+    image: "/astro.png",
     content: (
       <div className="text-foreground leading-relaxed space-y-6">
         <p className="text-lg text-muted-foreground">
