@@ -908,6 +908,96 @@ const posts: Record<
       </div>
     ),
   },
+  "saudi-arabia-hematology-conference-2024": {
+    title: "Saudi Arabia’s Hematology Conference: A Step Forward in 2024",
+    date: "February 2024",
+    author: "Medical Updates Team",
+    category: "Conference Review",
+    readTime: "8 min read",
+    image: "/medical-conference-hall.jpg",
+    content: (
+      <div className="text-foreground leading-relaxed space-y-6">
+        <p className="text-lg text-muted-foreground">
+          The Second SSBMT/SSH Combined Annual Conference, held in Jeddah in February 2024, marked an important evolution in
+          how hematology and transplantation medicine are discussed in the region. Building on the success of the inaugural
+          combined event, this year’s conference introduced several new dimensions that set it apart and positioned it as a
+          key regional platform for collaboration and knowledge exchange.
+        </p>
+
+        <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">🔑 What Was New in 2024?</h2>
+        <ul className="list-disc list-inside text-muted-foreground space-y-2 ml-4">
+          <li>
+            <strong>Expanded collaboration:</strong> The meeting fully integrated the Saudi Society of Blood &amp; Marrow
+            Transplantation (SSBMT) and the Saudi Society of Hematology (SSH), creating a broader interdisciplinary program
+            that covered a wider range of hematology topics than in previous standalone society meetings.
+          </li>
+          <li>
+            <strong>Four-in-one format:</strong> For the first time, four major events were merged into one platform—bringing
+            together the SSH Annual Meeting, Pan Arab SSBMT Annual Meeting, Hematology Year Review, and the Saudi Hematology
+            Research Group Conference—offering participants a richer and more comprehensive experience.
+          </li>
+          <li>
+            <strong>Interdisciplinary focus:</strong> The program emphasized cross-specialty collaboration, engaging not only
+            hematologists and oncologists but also pharmacists, nurses, and allied health professionals in structured
+            sessions, moving beyond earlier physician-centric gatherings.
+          </li>
+          <li>
+            <strong>Regional networking:</strong> The event was positioned as a Pan-Arab hub, strengthening ties beyond Saudi
+            Arabia and encouraging new regional research partnerships in hematology and transplantation.
+          </li>
+          <li>
+            <strong>Knowledge translation:</strong> The inclusion of the Hematology Year Review and dedicated research group
+            sessions ensured that cutting-edge findings were not only presented but also contextualized for clinical
+            application, an aspect less emphasized in prior events.
+          </li>
+        </ul>
+
+        <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">A Unique Collaborative Platform</h2>
+        <p className="text-muted-foreground">
+          This conference functioned as more than a single scientific meeting—it was a fusion of four major hematology
+          gatherings on one shared platform:
+        </p>
+        <ul className="list-disc list-inside text-muted-foreground space-y-2 ml-4">
+          <li>The 21st Annual Meeting of the Saudi Society of Hematology</li>
+          <li>The 12th Annual Meeting of the Pan Arab Association SSBMT</li>
+          <li>The 9th Hematology Year Review</li>
+          <li>The 9th Annual Saudi Hematology Research Group Conference</li>
+        </ul>
+        <p className="text-muted-foreground">
+          By combining these platforms, the organizers created a comprehensive forum for discussing cutting-edge research,
+          clinical practice, and innovation in blood and marrow transplantation and broader hematology care.
+        </p>
+
+        <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">Who Attended?</h2>
+        <p className="text-muted-foreground">
+          The conference attracted a diverse, multidisciplinary audience, reflecting the complexity of modern hematology and
+          transplant care:
+        </p>
+        <ul className="list-disc list-inside text-muted-foreground space-y-2 ml-4">
+          <li>Hematologists and oncologists</li>
+          <li>Pathologists and internists</li>
+          <li>Pharmacists, nurses, and allied health professionals</li>
+        </ul>
+        <p className="text-muted-foreground">
+          This mix underscored the importance of coordinated teamwork in managing complex blood disorders, cancers, and
+          transplant patients, and highlighted how shared decision-making across professions is becoming the standard of care.
+        </p>
+
+        <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">🌟 Why It Matters</h2>
+        <p className="text-muted-foreground">
+          The evolution of this conference reflects Saudi Arabia’s growing ambition to serve as a regional leader in
+          hematology and transplantation medicine. By merging multiple scientific, educational, and research-focused
+          platforms into one consolidated event, the organizers created a one-stop hub for education, networking, and
+          research dissemination.
+        </p>
+        <p className="text-muted-foreground">
+          The 2024 edition sets a new benchmark for medical events in the region—demonstrating how integrated, collaborative
+          conferences can accelerate knowledge translation, foster Pan-Arab partnerships, and ultimately improve patient
+          outcomes in hematology and blood and marrow transplantation.
+        </p>
+      </div>
+    ),
+  },
 }
 
 export default async function BlogPostPage({ params, searchParams }: Props) {

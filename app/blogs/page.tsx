@@ -100,6 +100,17 @@ const blogPosts = [
     author: "Hamza Khursheed",
     readTime: "12 min read",
     image: "/blog1.webp",
+  },
+  {
+    id: "saudi-arabia-hematology-conference-2024",
+    title: "Saudi Arabia’s Hematology Conference: A Step Forward in 2024",
+    excerpt:
+      "A review of the Second SSBMT/SSH Combined Annual Conference in Jeddah, highlighting its expanded collaboration, four-in-one format, multidisciplinary focus, and growing role as a Pan-Arab hub for hematology and transplantation.",
+    category: "Conference Review",
+    date: "February 2024",
+    author: "Medical Updates Team",
+    readTime: "8 min read",
+    image: "/saudi.jpg",
   }
 ]
 
