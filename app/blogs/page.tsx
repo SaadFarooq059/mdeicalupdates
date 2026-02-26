@@ -107,10 +107,21 @@ const blogPosts = [
     excerpt:
       "A review of the Second SSBMT/SSH Combined Annual Conference in Jeddah, highlighting its expanded collaboration, four-in-one format, multidisciplinary focus, and growing role as a Pan-Arab hub for hematology and transplantation.",
     category: "Conference Review",
-    date: "February 2024",
-    author: "Medical Updates Team",
+    date: "28 Feb 2024",
+    author: "Hamza Khursheed",
     readTime: "8 min read",
     image: "/saudi.jpg",
+  },
+  {
+    id: "best-of-astro-gulf-2024",
+    title: "Best of ASTRO Gulf 2024: Advancing Oncology in the Gulf",
+    excerpt:
+      "An in-depth review of Best of ASTRO Gulf 2024, covering its hybrid format, radiogenomics focus, wide-ranging cancer-site sessions, and its role in advancing collaborative, precision oncology across the Gulf region.",
+    category: "Conference Review",
+    date: "5 May 2024",
+    author: "Hamza Khursheed",
+    readTime: "20 min read",
+    image: "/medical-conference-hall.jpg",
   }
 ]
 

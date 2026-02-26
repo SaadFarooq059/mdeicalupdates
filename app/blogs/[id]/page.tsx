@@ -910,8 +910,8 @@ const posts: Record<
   },
   "saudi-arabia-hematology-conference-2024": {
     title: "Saudi Arabia’s Hematology Conference: A Step Forward in 2024",
-    date: "February 2024",
-    author: "Medical Updates Team",
+    date: "28 Feb 2024",
+    author: "Hamza Khursheed",
     category: "Conference Review",
     readTime: "8 min read",
     image: "/medical-conference-hall.jpg",
@@ -924,7 +924,7 @@ const posts: Record<
           key regional platform for collaboration and knowledge exchange.
         </p>
 
-        <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">🔑 What Was New in 2024?</h2>
+        <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">Key Developments in 2024</h2>
         <ul className="list-disc list-inside text-muted-foreground space-y-2 ml-4">
           <li>
             <strong>Expanded collaboration:</strong> The meeting fully integrated the Saudi Society of Blood &amp; Marrow
@@ -932,9 +932,9 @@ const posts: Record<
             that covered a wider range of hematology topics than in previous standalone society meetings.
           </li>
           <li>
-            <strong>Four-in-one format:</strong> For the first time, four major events were merged into one platform—bringing
-            together the SSH Annual Meeting, Pan Arab SSBMT Annual Meeting, Hematology Year Review, and the Saudi Hematology
-            Research Group Conference—offering participants a richer and more comprehensive experience.
+            <strong>Four-in-one format:</strong> Four major events were merged into one platform—bringing together the SSH
+            Annual Meeting, Pan Arab SSBMT Annual Meeting, Hematology Year Review, and the Saudi Hematology Research Group
+            Conference—offering participants a richer and more comprehensive experience.
           </li>
           <li>
             <strong>Interdisciplinary focus:</strong> The program emphasized cross-specialty collaboration, engaging not only
@@ -968,7 +968,7 @@ const posts: Record<
           clinical practice, and innovation in blood and marrow transplantation and broader hematology care.
         </p>
 
-        <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">Who Attended?</h2>
+        <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">Participants and Regional Significance</h2>
         <p className="text-muted-foreground">
           The conference attracted a diverse, multidisciplinary audience, reflecting the complexity of modern hematology and
           transplant care:
@@ -983,7 +983,7 @@ const posts: Record<
           transplant patients, and highlighted how shared decision-making across professions is becoming the standard of care.
         </p>
 
-        <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">🌟 Why It Matters</h2>
+        <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">Why This Meeting Matters</h2>
         <p className="text-muted-foreground">
           The evolution of this conference reflects Saudi Arabia’s growing ambition to serve as a regional leader in
           hematology and transplantation medicine. By merging multiple scientific, educational, and research-focused
@@ -994,6 +994,198 @@ const posts: Record<
           The 2024 edition sets a new benchmark for medical events in the region—demonstrating how integrated, collaborative
           conferences can accelerate knowledge translation, foster Pan-Arab partnerships, and ultimately improve patient
           outcomes in hematology and blood and marrow transplantation.
+        </p>
+      </div>
+    ),
+  },
+  "best-of-astro-gulf-2024": {
+    title: "Best of ASTRO Gulf 2024: Advancing Oncology in the Gulf",
+    date: "5 May 2024",
+    author: "Hamza Khursheed",
+    category: "Conference Review",
+    readTime: "20 min read",
+    image: "/medical-conference-hall.jpg",
+    content: (
+      <div className="text-foreground leading-relaxed space-y-6">
+        <p className="text-lg text-muted-foreground">
+          Best of ASTRO Gulf 2024 brought together radiation oncologists, medical oncologists, surgeons, physicists,
+          technologists, and allied health professionals from across the Gulf and beyond to review and contextualize the most
+          important findings from ASTRO 2023. Delivered in a hybrid format, the meeting combined in-person networking and
+          hands-on learning with broad virtual participation, creating an accessible, high-impact educational experience for
+          oncology teams in the region.
+        </p>
+
+        <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">Hybrid Format and Participation</h2>
+        <p className="text-muted-foreground">
+          The conference used a fully hybrid model, with parallel in-person and virtual components:
+        </p>
+        <ul className="list-disc list-inside text-muted-foreground space-y-2 ml-4">
+          <li>
+            <strong>In-person component:</strong> Enabled face-to-face networking, hands-on workshops, and direct engagement
+            with industry exhibits.
+          </li>
+          <li>
+            <strong>Virtual access:</strong> Allowed regional and international participants, including those from remote or
+            resource-limited settings, to follow the full scientific program and join live discussions.
+          </li>
+        </ul>
+        <p className="text-muted-foreground">
+          This approach helped democratize access to world-class oncology education, reflected in event metrics of more than
+          300 attendees and over 40 expert speakers from across the Gulf region and internationally.
+        </p>
+
+        <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">Agenda and Scientific Themes</h2>
+        <p className="text-muted-foreground">
+          The two-day agenda combined thematic scientific sessions, keynote lectures, panel discussions, industry symposia,
+          and interactive workshops. Content was curated to mirror the breadth and depth of ASTRO 2023 while highlighting
+          Gulf-specific practice needs, infrastructure realities, and innovation priorities.
+        </p>
+
+        <h3 className="text-xl font-semibold text-foreground mt-6 mb-3">Comprehensive Cancer Site Coverage</h3>
+        <p className="text-muted-foreground">
+          Disease-site tracks ensured relevance to the full spectrum of oncology practice in the Gulf. Major cancer types and
+          topics covered included:
+        </p>
+        <ul className="list-disc list-inside text-muted-foreground space-y-1 ml-4">
+          <li>Breast cancer</li>
+          <li>Gastrointestinal (GI) cancers</li>
+          <li>Gynecological cancers</li>
+          <li>Genitourinary (GU) cancers</li>
+          <li>Lung cancer</li>
+          <li>Head and neck cancers</li>
+          <li>Central nervous system (CNS) tumors</li>
+          <li>Sarcoma, cutaneous tumors, and pediatric cancers</li>
+          <li>Hematologic malignancies</li>
+          <li>Palliative care and supportive oncology</li>
+        </ul>
+        <p className="text-muted-foreground">
+          Each session highlighted pivotal clinical trials, translational research, and guideline updates, followed by panel
+          discussions that translated data into Gulf-specific practice recommendations.
+        </p>
+
+        <h3 className="text-xl font-semibold text-foreground mt-6 mb-3">Integration of ASTRO 2023 Highlights</h3>
+        <p className="text-muted-foreground">
+          A core objective was to deliver the most practice-changing and methodologically robust studies from ASTRO 2023 to a
+          Gulf audience. Faculty selected key abstracts and guideline updates for their direct implications in areas such as
+          hypofractionation, stereotactic body radiotherapy (SBRT), adaptive radiotherapy, and integration of systemic therapy
+          with radiation.
+        </p>
+
+        <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">Radiogenomics and Precision Oncology</h2>
+        <p className="text-muted-foreground">
+          Radiogenomics—linking genomic information to radiation response—was a central theme, reflecting the region's growing
+          investment in precision medicine. Dedicated sessions explored:
+        </p>
+        <ul className="list-disc list-inside text-muted-foreground space-y-2 ml-4">
+          <li>Use of genomic signatures to predict radiosensitivity, toxicity risk, and patterns of failure.</li>
+          <li>Integration of radiogenomic biomarkers into daily clinical decision-making and treatment planning.</li>
+          <li>
+            Emerging evidence on the role of the microbiome and immunogenomics in modulating radiotherapy outcomes in GI and
+            other cancers.
+          </li>
+        </ul>
+        <p className="text-muted-foreground">
+          Presentations on genomic biosignatures in breast cancer, immunogenomic profiling in prostate cancer, and microbiome
+          studies in rectal cancer demonstrated how bench research is now informing real-world protocols and guideline
+          development.
+        </p>
+
+        <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">Workshops, Interactive Learning, and Technology</h2>
+        <p className="text-muted-foreground">
+          Hands-on workshops and interactive case sessions were interwoven throughout the program to reinforce application of
+          new evidence in daily practice. Topics included:
+        </p>
+        <ul className="list-disc list-inside text-muted-foreground space-y-2 ml-4">
+          <li>Advanced radiotherapy planning, quality assurance, and peer review.</li>
+          <li>Multidisciplinary management of complex and rare cases across disease sites.</li>
+          <li>Implementation pathways for new technologies, protocols, and hypofractionated regimens.</li>
+        </ul>
+        <p className="text-muted-foreground">
+          The industry exhibition showcased next-generation technologies such as surface guided radiation therapy (SGRT),
+          intraoperative radiotherapy devices, and advanced imaging and planning platforms from leading vendors. Industry
+          symposia covered HER2+ metastatic breast cancer, cranial radiosurgery, and multimodality treatment for lung cancer,
+          providing a bridge between innovation and bedside practice.
+        </p>
+
+        <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">International and Regional Faculty</h2>
+        <p className="text-muted-foreground">
+          The meeting featured a balanced mix of international experts and regional leaders from the USA, Canada, Europe, the
+          Middle East, and North Africa. International faculty presented long-term outcomes from randomized trials in brain
+          metastases, breast and prostate cancer, CNS tumors, and sarcomas, while regional speakers focused on real-world
+          implementation, Gulf epidemiology, and health-system constraints.
+        </p>
+        <p className="text-muted-foreground">
+          Leaders from UAE, Saudi Arabia, Egypt, Jordan, and other Gulf states chaired sessions, moderated panels, and led
+          scientific planning—underscoring the region’s growing ownership of oncology agenda-setting and guideline adaptation.
+        </p>
+
+        <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">Disease-Site Highlights</h2>
+        <p className="text-muted-foreground">
+          Several tracks stood out for their potential to shift practice across the Gulf:
+        </p>
+        <ul className="list-disc list-inside text-muted-foreground space-y-2 ml-4">
+          <li>
+            <strong>Gastrointestinal cancers:</strong> Data on neoadjuvant strategies in esophago-gastric cancers, watch-and-wait
+            approaches in rectal cancer, and microbiome–immunogenomic interactions pointed toward more biology-driven,
+            organ-preserving care.
+          </li>
+          <li>
+            <strong>Sarcoma and cutaneous tumors:</strong> Meta-analyses of hypofractionated preoperative radiotherapy and
+            dose-painting techniques supported individualized treatment of rare, complex tumors, including pediatric sarcomas.
+          </li>
+          <li>
+            <strong>CNS tumors:</strong> Updated target-volume delineation guidelines, stereotactic radiosurgery trials, and early
+            work in AI-assisted planning highlighted rapid advances in neuro-oncology.
+          </li>
+          <li>
+            <strong>Breast cancer:</strong> Trials on partial vs whole-breast irradiation, SABR for oligoprogression, and genomic
+            signatures for DCIS reinforced trends toward de-escalation, precision, and incorporation of patient-reported
+            outcomes.
+          </li>
+          <li>
+            <strong>GU and lung cancers:</strong> Long-term outcomes from SBRT vs conventional radiotherapy, immunogenomic
+            profiling, and combined SBRT–immunotherapy strategies illustrated the move toward biomarker-guided, multimodality
+            care.
+          </li>
+          <li>
+            <strong>Head and neck, hematologic malignancies, and palliative care:</strong> Talks on HPV ctDNA, consolidative
+            radiotherapy post–CAR T-cell therapy, and innovative SABR-based palliative approaches broadened the scope of
+            radiation oncology to survivorship and supportive care.
+          </li>
+        </ul>
+
+        <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">Regional Collaboration and Capacity Building</h2>
+        <p className="text-muted-foreground">
+          Best of ASTRO Gulf 2024 served as a catalyst for Gulf-wide collaboration. Parallel meetings, including a Gulf
+          Oncology Society gathering, focused on nurturing young leaders, planning future conferences, and developing
+          regionally adapted guidelines. Discussions emphasized building biobanks, launching collaborative trials, and sharing
+          data across institutions to accelerate radiogenomics and precision-oncology research.
+        </p>
+        <p className="text-muted-foreground">
+          Participants also confronted challenges such as resource disparities and workforce shortages, but emphasized
+          volunteerism, mentorship, and inter-institutional networking as practical levers for progress.
+        </p>
+
+        <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">Clinical Impact, CME, and Policy Implications</h2>
+        <p className="text-muted-foreground">
+          The conference placed strong emphasis on translating evidence into everyday clinical decisions. Case-based
+          discussions, guideline-focused sessions, and quality-assurance workshops helped participants integrate hypofractionated
+          regimens, immunotherapy–radiotherapy combinations, and advanced imaging and planning tools into their workflows. The
+          meeting was CME-accredited, reinforcing its role in professional development.
+        </p>
+        <p className="text-muted-foreground">
+          Broader policy themes included adapting international guidelines to Gulf populations, strengthening radiation
+          oncology workforce capacity, and ensuring equitable access to advanced technologies and clinical trials across the
+          region.
+        </p>
+
+        <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">Conclusion</h2>
+        <p className="text-muted-foreground">
+          Best of ASTRO Gulf 2024 stands out as a transformative milestone for oncology in the Gulf. By integrating
+          state-of-the-art science from ASTRO 2023, showcasing next-generation technologies, and nurturing a culture of
+          collaboration and precision oncology, the event set a new benchmark for regional cancer conferences. Its hybrid
+          design, radiogenomics focus, and emphasis on patient-centered outcomes are likely to shape clinical practice,
+          research priorities, and education agendas across the Gulf for years to come.
         </p>
       </div>
     ),
