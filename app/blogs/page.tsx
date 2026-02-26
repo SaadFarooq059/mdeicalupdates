@@ -121,7 +121,7 @@ const blogPosts = [
     date: "5 May 2024",
     author: "Hamza Khursheed",
     readTime: "20 min read",
-    image: "/medical-conference-hall.jpg",
+    image: "/astro.png",
   }
 ]
 
